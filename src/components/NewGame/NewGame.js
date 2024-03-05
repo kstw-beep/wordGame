@@ -5,7 +5,7 @@ function NewGame() {
     window.location.reload();
   }
   return (
-    <div>
+    <div className='new-game'>
       <button type='button' onClick={refreshPage}>
         New Game
       </button>

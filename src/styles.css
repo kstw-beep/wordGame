@@ -31,16 +31,13 @@ body {
 }
 
 button {
-  margin-left: 5rem;
-  padding: 1rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  margin: 0;
+  padding: 0;
   border: none;
-  background: Green;
+  background: transparent;
   cursor: pointer;
   text-align: left;
-  color: white;
-  border-radius: 1rem;
+  color: inherit;
 }
 
 .wrapper {
@@ -271,4 +268,16 @@ h1 {
 .keyboard .letter.misplaced {
   background: var(--color-warning);
   color: white;
+}
+
+.new-game {
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border: none;
+  background: Green;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  border-radius: 1rem;
 }
